@@ -13,7 +13,7 @@ class GameInfo:
         self.TitleId: str = "47E3B"
         self.SecretKey: str = "QX87YISCNNGOHOQ3EI8KZ4TJD6SYAWEK74OT5IIH5OZAB6M8TD"
         self.ApiKey: str = "OC|9331346556964019|972af4aeda9fc18d6ab6cffea7ea52c8"
-        self.DiscordWebhook: str = ""
+        self.DiscordWebhook: str = "https://discord.com/api/webhooks/1427179735074471998/5nP_SvhzEyJGu-nVAuC-OF-pEkqmy0dSC1eumpEcwG4BYxJN6oNGuHjszDw88AiLUJda"
 
     def get_auth_headers(self):
         return {"content-type": "application/json", "X-SecretKey": self.SecretKey}
